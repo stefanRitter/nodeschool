@@ -1,0 +1,192 @@
+Sun Dec  1 18:03:34.315 [initandlisten] MongoDB starting : pid=1504 port=27017 dbpath=/data/rs1 64-bit host=StefanAir
+Sun Dec  1 18:03:34.315 [initandlisten] 
+Sun Dec  1 18:03:34.315 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+Sun Dec  1 18:03:34.315 [initandlisten] db version v2.4.8
+Sun Dec  1 18:03:34.315 [initandlisten] git version: nogitversion
+Sun Dec  1 18:03:34.315 [initandlisten] build info: Darwin StefanAir 13.0.0 Darwin Kernel Version 13.0.0: Thu Sep 19 22:22:27 PDT 2013; root:xnu-2422.1.72~6/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Sun Dec  1 18:03:34.315 [initandlisten] allocator: tcmalloc
+Sun Dec  1 18:03:34.315 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs1", fork: true, logappend: "true", logpath: "1.log", oplogSize: 64, port: 27017, replSet: "m101", smallfiles: true }
+Sun Dec  1 18:03:34.316 [initandlisten] exception in initAndListen: 10309 Unable to create/open lock file: /data/rs1/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+Sun Dec  1 18:03:34.316 dbexit: 
+Sun Dec  1 18:03:34.317 [initandlisten] shutdown: going to close listening sockets...
+Sun Dec  1 18:03:34.317 [initandlisten] shutdown: going to flush diaglog...
+Sun Dec  1 18:03:34.317 [initandlisten] shutdown: going to close sockets...
+Sun Dec  1 18:03:34.317 [initandlisten] shutdown: waiting for fs preallocator...
+Sun Dec  1 18:03:34.317 [initandlisten] shutdown: lock for final commit...
+Sun Dec  1 18:03:34.317 [initandlisten] shutdown: final commit...
+Sun Dec  1 18:03:34.317 [initandlisten] shutdown: closing all files...
+Sun Dec  1 18:03:34.317 [initandlisten] closeAllFiles() finished
+Sun Dec  1 18:03:34.317 [initandlisten] shutdown: removing fs lock...
+Sun Dec  1 18:03:34.317 [initandlisten] couldn't remove fs lock errno:9 Bad file descriptor
+Sun Dec  1 18:03:34.317 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Dec  1 18:04:11.264 [initandlisten] MongoDB starting : pid=1515 port=27017 dbpath=/data/rs1 64-bit host=StefanAir
+Sun Dec  1 18:04:11.359 [initandlisten] 
+Sun Dec  1 18:04:11.359 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+Sun Dec  1 18:04:11.359 [initandlisten] db version v2.4.8
+Sun Dec  1 18:04:11.360 [initandlisten] git version: nogitversion
+Sun Dec  1 18:04:11.360 [initandlisten] build info: Darwin StefanAir 13.0.0 Darwin Kernel Version 13.0.0: Thu Sep 19 22:22:27 PDT 2013; root:xnu-2422.1.72~6/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Sun Dec  1 18:04:11.360 [initandlisten] allocator: tcmalloc
+Sun Dec  1 18:04:11.360 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs1", fork: true, logappend: "true", logpath: "1.log", oplogSize: 64, port: 27017, replSet: "m101", smallfiles: true }
+Sun Dec  1 18:04:11.361 [initandlisten] exception in initAndListen: 10309 Unable to create/open lock file: /data/rs1/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+Sun Dec  1 18:04:11.361 dbexit: 
+Sun Dec  1 18:04:11.361 [initandlisten] shutdown: going to close listening sockets...
+Sun Dec  1 18:04:11.361 [initandlisten] shutdown: going to flush diaglog...
+Sun Dec  1 18:04:11.361 [initandlisten] shutdown: going to close sockets...
+Sun Dec  1 18:04:11.361 [initandlisten] shutdown: waiting for fs preallocator...
+Sun Dec  1 18:04:11.362 [initandlisten] shutdown: lock for final commit...
+Sun Dec  1 18:04:11.362 [initandlisten] shutdown: final commit...
+Sun Dec  1 18:04:11.362 [initandlisten] shutdown: closing all files...
+Sun Dec  1 18:04:11.362 [initandlisten] closeAllFiles() finished
+Sun Dec  1 18:04:11.362 [initandlisten] shutdown: removing fs lock...
+Sun Dec  1 18:04:11.362 [initandlisten] couldn't remove fs lock errno:9 Bad file descriptor
+Sun Dec  1 18:04:11.363 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Dec  1 18:04:17.950 [initandlisten] MongoDB starting : pid=1527 port=27017 dbpath=/data/rs1 64-bit host=StefanAir
+Sun Dec  1 18:04:17.950 [initandlisten] 
+Sun Dec  1 18:04:17.950 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+Sun Dec  1 18:04:17.951 [initandlisten] db version v2.4.8
+Sun Dec  1 18:04:17.951 [initandlisten] git version: nogitversion
+Sun Dec  1 18:04:17.951 [initandlisten] build info: Darwin StefanAir 13.0.0 Darwin Kernel Version 13.0.0: Thu Sep 19 22:22:27 PDT 2013; root:xnu-2422.1.72~6/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Sun Dec  1 18:04:17.951 [initandlisten] allocator: tcmalloc
+Sun Dec  1 18:04:17.951 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs1", fork: true, logappend: "true", logpath: "1.log", oplogSize: 64, port: 27017, replSet: "m101", smallfiles: true }
+Sun Dec  1 18:04:17.951 [initandlisten] journal dir=/data/rs1/journal
+Sun Dec  1 18:04:17.952 [initandlisten] recover : no journal files present, no recovery needed
+Sun Dec  1 18:04:17.968 [FileAllocator] allocating new datafile /data/rs1/local.ns, filling with zeroes...
+Sun Dec  1 18:04:17.968 [FileAllocator] creating directory /data/rs1/_tmp
+Sun Dec  1 18:04:17.996 [FileAllocator] done allocating datafile /data/rs1/local.ns, size: 16MB,  took 0.027 secs
+Sun Dec  1 18:04:18.017 [FileAllocator] allocating new datafile /data/rs1/local.0, filling with zeroes...
+Sun Dec  1 18:04:18.038 [FileAllocator] done allocating datafile /data/rs1/local.0, size: 16MB,  took 0.02 secs
+Sun Dec  1 18:04:18.061 [websvr] admin web console waiting for connections on port 28017
+Sun Dec  1 18:04:18.061 [initandlisten] waiting for connections on port 27017
+Sun Dec  1 18:04:18.062 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun Dec  1 18:04:18.062 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+Sun Dec  1 18:04:28.065 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun Dec  1 18:04:38.066 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun Dec  1 18:04:43.444 [initandlisten] connection accepted from 127.0.0.1:50986 #1 (1 connection now open)
+Sun Dec  1 18:04:48.068 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun Dec  1 18:04:58.069 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun Dec  1 18:05:05.121 [conn1] replSet replSetInitiate admin command received from client
+Sun Dec  1 18:05:05.222 [conn1] replSet replSetInitiate config object parses ok, 3 members specified
+Sun Dec  1 18:05:05.225 [conn1] replSet replSetInitiate all members seem up
+Sun Dec  1 18:05:05.225 [conn1] ******
+Sun Dec  1 18:05:05.225 [conn1] creating replication oplog of size: 64MB...
+Sun Dec  1 18:05:05.226 [FileAllocator] allocating new datafile /data/rs1/local.1, filling with zeroes...
+Sun Dec  1 18:05:05.589 [FileAllocator] done allocating datafile /data/rs1/local.1, size: 128MB,  took 0.362 secs
+Sun Dec  1 18:05:05.627 [conn1] ******
+Sun Dec  1 18:05:05.628 [conn1] replSet info saving a newer config version to local.system.replset
+Sun Dec  1 18:05:05.648 [conn1] replSet saveConfigLocally done
+Sun Dec  1 18:05:05.648 [conn1] replSet replSetInitiate config now saved locally.  Should come online in about a minute.
+Sun Dec  1 18:05:05.648 [conn1] command admin.$cmd command: { replSetInitiate: { _id: "m101", members: [ { _id: 0.0, host: "localhost:27017" }, { _id: 1.0, host: "localhost:27018" }, { _id: 2.0, host: "localhost:27019" } ] } } ntoreturn:1 keyUpdates:0 locks(micros) W:423150 reslen:112 526ms
+Sun Dec  1 18:05:08.074 [rsStart] replSet I am localhost:27017
+Sun Dec  1 18:05:08.075 [rsStart] replSet STARTUP2
+Sun Dec  1 18:05:08.075 [rsHealthPoll] replSet member localhost:27018 is up
+Sun Dec  1 18:05:09.077 [rsSync] replSet SECONDARY
+Sun Dec  1 18:05:09.615 [initandlisten] connection accepted from 127.0.0.1:50989 #2 (2 connections now open)
+Sun Dec  1 18:05:10.076 [rsHealthPoll] replSet member localhost:27019 is up
+Sun Dec  1 18:05:10.076 [rsHealthPoll] replset info localhost:27018 thinks that we are down
+Sun Dec  1 18:05:10.077 [rsHealthPoll] replSet member localhost:27018 is now in state STARTUP2
+Sun Dec  1 18:05:10.078 [rsMgr] not electing self, localhost:27018 would veto with 'I don't think localhost:27017 is electable'
+Sun Dec  1 18:05:10.078 [rsMgr] not electing self, localhost:27018 would veto with 'I don't think localhost:27017 is electable'
+Sun Dec  1 18:05:16.083 [rsMgr] replSet not electing self, not all members up and we have been up less than 5 minutes
+Sun Dec  1 18:05:16.507 [initandlisten] connection accepted from 127.0.0.1:50991 #3 (3 connections now open)
+Sun Dec  1 18:05:18.082 [rsHealthPoll] replset info localhost:27019 thinks that we are down
+Sun Dec  1 18:05:18.082 [rsHealthPoll] replSet member localhost:27019 is now in state STARTUP2
+Sun Dec  1 18:05:18.083 [rsMgr] not electing self, localhost:27019 would veto with 'I don't think localhost:27017 is electable'
+Sun Dec  1 18:05:24.087 [rsMgr] replSet info electSelf 0
+Sun Dec  1 18:05:25.085 [rsMgr] replSet PRIMARY
+Sun Dec  1 18:05:25.630 [conn2] end connection 127.0.0.1:50989 (2 connections now open)
+Sun Dec  1 18:05:25.630 [initandlisten] connection accepted from 127.0.0.1:50994 #4 (4 connections now open)
+Sun Dec  1 18:05:25.944 [initandlisten] connection accepted from 127.0.0.1:50995 #5 (4 connections now open)
+Sun Dec  1 18:05:25.974 [conn5] end connection 127.0.0.1:50995 (3 connections now open)
+Sun Dec  1 18:05:26.087 [rsHealthPoll] replSet member localhost:27018 is now in state RECOVERING
+Sun Dec  1 18:05:26.087 [rsHealthPoll] replSet member localhost:27019 is now in state RECOVERING
+Sun Dec  1 18:05:26.636 [initandlisten] connection accepted from 127.0.0.1:50996 #6 (4 connections now open)
+Sun Dec  1 18:05:26.976 [initandlisten] connection accepted from 127.0.0.1:50997 #7 (5 connections now open)
+Sun Dec  1 18:05:27.986 [slaveTracking] build index local.slaves { _id: 1 }
+Sun Dec  1 18:05:27.987 [slaveTracking] build index done.  scanned 0 total records. 0.001 secs
+Sun Dec  1 18:05:28.087 [rsHealthPoll] replSet member localhost:27018 is now in state SECONDARY
+Sun Dec  1 18:05:32.525 [conn3] end connection 127.0.0.1:50991 (4 connections now open)
+Sun Dec  1 18:05:32.526 [initandlisten] connection accepted from 127.0.0.1:50998 #8 (6 connections now open)
+Sun Dec  1 18:05:32.945 [initandlisten] connection accepted from 127.0.0.1:50999 #9 (6 connections now open)
+Sun Dec  1 18:05:32.976 [conn9] end connection 127.0.0.1:50999 (5 connections now open)
+Sun Dec  1 18:05:33.632 [initandlisten] connection accepted from 127.0.0.1:51003 #10 (6 connections now open)
+Sun Dec  1 18:05:33.977 [initandlisten] connection accepted from 127.0.0.1:51004 #11 (7 connections now open)
+Sun Dec  1 18:05:36.092 [rsHealthPoll] replSet member localhost:27019 is now in state SECONDARY
+Sun Dec  1 18:05:55.657 [conn4] end connection 127.0.0.1:50994 (6 connections now open)
+Sun Dec  1 18:05:55.658 [initandlisten] connection accepted from 127.0.0.1:51010 #12 (8 connections now open)
+Sun Dec  1 18:06:02.550 [conn8] end connection 127.0.0.1:50998 (6 connections now open)
+Sun Dec  1 18:06:02.551 [initandlisten] connection accepted from 127.0.0.1:51014 #13 (8 connections now open)
+Sun Dec  1 18:06:14.850 [initandlisten] connection accepted from 127.0.0.1:51022 #14 (8 connections now open)
+Sun Dec  1 18:06:14.863 [conn14] end connection 127.0.0.1:51022 (7 connections now open)
+Sun Dec  1 18:06:14.870 [initandlisten] connection accepted from 127.0.0.1:51023 #15 (8 connections now open)
+Sun Dec  1 18:06:14.871 [initandlisten] connection accepted from 127.0.0.1:51024 #16 (9 connections now open)
+Sun Dec  1 18:06:14.872 [initandlisten] connection accepted from 127.0.0.1:51025 #17 (10 connections now open)
+Sun Dec  1 18:06:14.873 [initandlisten] connection accepted from 127.0.0.1:51026 #18 (11 connections now open)
+Sun Dec  1 18:06:14.873 [initandlisten] connection accepted from 127.0.0.1:51027 #19 (12 connections now open)
+Sun Dec  1 18:06:14.898 [initandlisten] connection accepted from 127.0.0.1:51038 #20 (13 connections now open)
+Sun Dec  1 18:06:14.899 [initandlisten] connection accepted from 127.0.0.1:51039 #21 (14 connections now open)
+Sun Dec  1 18:06:14.905 [conn15] end connection 127.0.0.1:51023 (13 connections now open)
+Sun Dec  1 18:06:14.905 [conn16] end connection 127.0.0.1:51024 (13 connections now open)
+Sun Dec  1 18:06:14.905 [conn19] end connection 127.0.0.1:51027 (12 connections now open)
+Sun Dec  1 18:06:14.905 [conn18] end connection 127.0.0.1:51026 (13 connections now open)
+Sun Dec  1 18:06:14.905 [conn17] end connection 127.0.0.1:51025 (13 connections now open)
+Sun Dec  1 18:06:14.907 [conn20] end connection 127.0.0.1:51038 (8 connections now open)
+Sun Dec  1 18:06:14.909 [conn21] end connection 127.0.0.1:51039 (7 connections now open)
+Sun Dec  1 18:06:25.679 [conn12] end connection 127.0.0.1:51010 (6 connections now open)
+Sun Dec  1 18:06:25.680 [initandlisten] connection accepted from 127.0.0.1:51044 #22 (8 connections now open)
+Sun Dec  1 18:06:32.568 [conn13] end connection 127.0.0.1:51014 (6 connections now open)
+Sun Dec  1 18:06:32.568 [initandlisten] connection accepted from 127.0.0.1:51047 #23 (8 connections now open)
+Sun Dec  1 18:06:55.702 [conn22] end connection 127.0.0.1:51044 (6 connections now open)
+Sun Dec  1 18:06:55.703 [initandlisten] connection accepted from 127.0.0.1:51055 #24 (8 connections now open)
+Sun Dec  1 18:07:02.597 [conn23] end connection 127.0.0.1:51047 (6 connections now open)
+Sun Dec  1 18:07:02.598 [initandlisten] connection accepted from 127.0.0.1:51057 #25 (8 connections now open)
+Sun Dec  1 18:07:25.723 [conn24] end connection 127.0.0.1:51055 (6 connections now open)
+Sun Dec  1 18:07:25.723 [initandlisten] connection accepted from 127.0.0.1:51064 #26 (8 connections now open)
+Sun Dec  1 18:07:32.620 [conn25] end connection 127.0.0.1:51057 (6 connections now open)
+Sun Dec  1 18:07:32.620 [initandlisten] connection accepted from 127.0.0.1:51065 #27 (8 connections now open)
+Sun Dec  1 18:07:55.740 [conn26] end connection 127.0.0.1:51064 (6 connections now open)
+Sun Dec  1 18:07:55.741 [initandlisten] connection accepted from 127.0.0.1:51073 #28 (8 connections now open)
+Sun Dec  1 18:08:02.639 [conn27] end connection 127.0.0.1:51065 (6 connections now open)
+Sun Dec  1 18:08:02.639 [initandlisten] connection accepted from 127.0.0.1:51074 #29 (8 connections now open)
+Sun Dec  1 18:08:10.293 [conn1] end connection 127.0.0.1:50986 (6 connections now open)
+Sun Dec  1 18:08:25.576 [initandlisten] connection accepted from 127.0.0.1:51079 #30 (7 connections now open)
+Sun Dec  1 18:08:25.756 [conn28] end connection 127.0.0.1:51073 (6 connections now open)
+Sun Dec  1 18:08:25.757 [initandlisten] connection accepted from 127.0.0.1:51080 #31 (8 connections now open)
+Sun Dec  1 18:08:32.660 [conn29] end connection 127.0.0.1:51074 (6 connections now open)
+Sun Dec  1 18:08:32.660 [initandlisten] connection accepted from 127.0.0.1:51082 #32 (8 connections now open)
+Sun Dec  1 18:08:51.116 [conn30] replSet info stepping down as primary secs=120
+Sun Dec  1 18:08:51.116 [conn30] replSet relinquishing primary state
+Sun Dec  1 18:08:51.116 [conn30] replSet SECONDARY
+Sun Dec  1 18:08:51.116 [conn30] replSet closing client sockets after relinquishing primary
+Sun Dec  1 18:08:51.116 [conn7] end connection 127.0.0.1:50997 (6 connections now open)
+Sun Dec  1 18:08:51.116 [conn11] end connection 127.0.0.1:51004 (6 connections now open)
+Sun Dec  1 18:08:51.117 [conn30] waiting for secondaries to catch up
+Sun Dec  1 18:08:51.117 [conn30] terminating, shutdown command received
+Sun Dec  1 18:08:51.117 dbexit: shutdown called
+Sun Dec  1 18:08:51.117 [conn30] shutdown: going to close listening sockets...
+Sun Dec  1 18:08:51.117 [conn30] closing listening socket: 9
+Sun Dec  1 18:08:51.118 [conn30] closing listening socket: 10
+Sun Dec  1 18:08:51.118 [conn30] closing listening socket: 11
+Sun Dec  1 18:08:51.118 [conn30] removing socket file: /tmp/mongodb-27017.sock
+Sun Dec  1 18:08:51.118 [conn30] shutdown: going to flush diaglog...
+Sun Dec  1 18:08:51.118 [conn30] shutdown: going to close sockets...
+Sun Dec  1 18:08:51.119 [conn30] shutdown: waiting for fs preallocator...
+Sun Dec  1 18:08:51.119 [conn30] shutdown: lock for final commit...
+Sun Dec  1 18:08:51.119 [conn30] shutdown: final commit...
+Sun Dec  1 18:08:51.119 [conn31] end connection 127.0.0.1:51080 (4 connections now open)
+Sun Dec  1 18:08:51.120 [conn32] end connection 127.0.0.1:51082 (4 connections now open)
+Sun Dec  1 18:08:51.130 [conn30] shutdown: closing all files...
+Sun Dec  1 18:08:51.131 [conn30] closeAllFiles() finished
+Sun Dec  1 18:08:51.131 [conn30] journalCleanup...
+Sun Dec  1 18:08:51.131 [conn30] removeJournalFiles
+Sun Dec  1 18:08:51.132 [conn30] shutdown: removing fs lock...
+Sun Dec  1 18:08:51.132 dbexit: really exiting now
