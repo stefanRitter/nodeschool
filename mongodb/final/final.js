@@ -19,7 +19,20 @@ db.messages.update({"headers.Message-ID": "<8147308.1075851042335.JavaMail.evans
   {$push: {"headers.To": "mrpotatohead@mongodb.com"}});
 
 
+// enron aggregate
+
+
+
 
 // blog update num_likes
 
 db.posts.update({permalink:"mxwnnnqaflufnqwlekfd"}, {"$inc": {"comments.0.num_likes": 1}});
+
+var selector = {};
+selector['comments.' + comment_ordinal + '.num_likes'] = 1;
+
+db.posts.update({'permalink': permalink}, {'$inc': selector}, function(err, numModified) {
+  "use strict";
+  if (err) return callback(err, null);
+  callback(err, numModified);
+});
