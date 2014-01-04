@@ -1,6 +1,6 @@
 'use strict';
 
-var memdb = require('..'),
+var memdb = require('./memdb'),
     assert = require('assert');
 
 describe('memdb', function () {
