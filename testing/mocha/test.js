@@ -37,4 +37,15 @@ describe('memdb', function () {
       assert(ret === pet);
     });
   });
+
+  describe('.save(doc, cb) - async', function () {
+    it('should save the document', function (done) {
+      var pet = {name: 'Tobi'};
+      memdb.save(pet, function () {
+        var ret = memdb.first({name: 'Tobi'});
+        assert(ret === pet);
+        done();
+      });
+    });
+  });
 });
