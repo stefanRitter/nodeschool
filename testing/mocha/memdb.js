@@ -18,3 +18,7 @@ exports.first = function (obj) {
     return true;
   }).shift();
 };
+
+exports.clear = function () {
+  db = [];
+};
